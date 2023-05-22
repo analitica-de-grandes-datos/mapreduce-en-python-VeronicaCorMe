@@ -11,4 +11,4 @@ if __name__ == "__main__":
         lista_datos= sorted(lista_datos)
         
     for datos in lista_datos:
-        sys.stdout.write("{}\t{}\t{}".format(datos[1], datos[2], datos[3]))
+        sys.stdout.write("{}   {}   {}".format(datos[1], datos[2], datos[3]))

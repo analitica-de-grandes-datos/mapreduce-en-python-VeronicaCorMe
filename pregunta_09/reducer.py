@@ -18,5 +18,5 @@ if __name__ == "__main__":
 
 
     for datos in lista_datos[:6]:
-        sys.stdout.write("{}\t{}\t{}\n".format( datos[1],datos[2],datos[0]))
+        sys.stdout.write("{}   {}   {}\n".format( datos[1],datos[2],datos[0]))
     
